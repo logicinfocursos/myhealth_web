@@ -1,0 +1,28 @@
+.container {
+    padding: 16;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(215,215,215);
+    border-radius: 30;
+  box-sizing: border-box;
+
+}
+
+.mycard {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+}
